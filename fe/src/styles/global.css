@@ -1,0 +1,1644 @@
+@tailwind base;
+
+a {
+  @apply text-blue-700;
+}
+
+a:hover {
+  @apply border-b-2 border-blue-700;
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+.content p {
+  @apply my-6;
+}
+
+.content ul {
+  @apply my-6;
+}
+
+html {
+  font-family: Poppins;
+}
+
+.cu-shadow {
+  padding-top: 3rem;
+}
+
+.cu-shadow p {
+  line-height: 1.3;
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="datetime-local"] {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  background: #f0efff;
+
+  color: #787878;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+input[type="date"] {
+  background-color: #20262d !important;
+  font-size: 12px;
+  color: #fff;
+  border: none !important;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  margin-right: 14px;
+}
+
+.msgTypingShow {
+  position: fixed;
+  top: 100px;
+  right: 200px;
+}
+
+.eventDetailsPopUp-head {
+  color: #fff;
+  font-size: 12px;
+  width: 5rem;
+}
+
+.eventDetailsPopUp-para {
+  color: #000000;
+  font-size: 12px;
+  width: 7rem;
+}
+
+.eventDetailsPopUp {
+  padding: 1rem 1.5rem;
+  background-color: #526eff;
+  border-radius: 8px;
+  bottom: 2rem;
+  right: -4rem;
+}
+
+.filter-btn {
+  padding: 0.5rem 1.5rem;
+  background-color: #13b497;
+  border: none;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 8px;
+}
+
+input,
+textarea:focus {
+  outline: none !important;
+}
+
+.imageWidth {
+  width: 45px;
+  height: 45px;
+}
+
+.event-h-left {
+  width: 80%;
+}
+
+.NewDateTimeInput {
+  width: 49%;
+  margin-bottom: 14px;
+  background: #20262d;
+  border-radius: 8px;
+}
+
+.datetimeInput {
+  margin-bottom: 0;
+}
+
+.datetimeInput input {
+  margin-bottom: 0 !important;
+}
+
+.order-header div {
+  width: 14.28% !important;
+  word-break: break-all;
+}
+
+.app-button {
+  width: 100%;
+  border-radius: 9px;
+  background: #13b497;
+  box-shadow: 0px 4px 61px 0px rgba(77, 71, 195, 0.4);
+  padding: 0.75rem 1rem;
+  text-align: center;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1reem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+:disabled {
+  cursor: not-allowed !important;
+}
+
+.saly-img {
+  position: absolute;
+  right: -90px;
+  width: 13rem;
+  bottom: -100px;
+}
+
+.login-form {
+  /* margin: 0 auto; */
+  float: right;
+  max-width: 400px;
+  width: 400px;
+}
+
+.login-form input {
+  font-size: 12px;
+}
+
+.signup-form {
+  width: 49%;
+  text-align: right;
+}
+
+.signup-form h1 {
+  width: 80%;
+  text-align: left;
+}
+
+.signup-form input {
+  font-size: 12px;
+  width: 80%;
+}
+
+.order-listlheadertext {
+  width: 150px;
+}
+
+.sign-sec {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.register-btn {
+  width: 22rem;
+  margin: 0 auto;
+}
+
+.signup-form textarea {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  background: #f0efff;
+  color: #787878;
+  font-size: 12px;
+  width: 80%;
+  height: 80px;
+  margin-top: 1.5rem;
+}
+
+.left_div {
+  width: 40%;
+}
+
+.signup-form label {
+  font-size: 12px;
+}
+
+.right_div {
+  width: 60%;
+}
+
+.checkBox {
+  width: 12px !important;
+}
+
+.sign-head {
+  margin-left: 4.6rem;
+}
+
+.forget-btn:hover {
+  color: #b0b0b0 !important;
+  border: none !important;
+}
+
+.eye-icon {
+  cursor: pointer;
+  width: 14px;
+  margin-right: 1rem;
+}
+
+.forget-btn {
+  margin: 1rem 0;
+  float: right !important;
+}
+
+.link-btn:hover {
+  color: #13b497 !important;
+  border: none !important;
+}
+
+.pagination-btn {
+  background-color: rgba(19, 180, 151, 0.2);
+  font-size: 12px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.incomeDrp {
+  font-size: 10px;
+  color: #969ba0;
+  height: 18px;
+  backgroundcolor: "#24292E";
+}
+
+@media (max-width: 767px) {
+  .drop-photos {
+    min-height: 70px;
+    height: auto;
+  }
+
+  .font-Size {
+    font-size: 8px !important;
+  }
+
+  .ic_img {
+    width: 10px !important;
+    height: 10px !important;
+    margin: 0 6px 4px 0 !important;
+  }
+
+  .delete-modal {
+    width: 350px;
+  }
+
+  .ic_text {
+    font-size: 10px;
+  }
+
+  .login {
+    flex-direction: column;
+    display: flex;
+    padding: 2rem;
+  }
+
+  .service-dropdown {
+    width: 100% !important;
+  }
+
+  .saly-img {
+    display: none;
+  }
+
+  .cu-shadow {
+    padding-top: 2rem;
+  }
+
+  .cu-shadow p {
+    font-size: 36px;
+  }
+
+  .left_div {
+    width: 100%;
+  }
+
+  .right_div {
+    width: 100%;
+  }
+
+  .signup-form-parent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .signup-form {
+    width: 100%;
+  }
+
+  .signup-form input {
+    width: 100%;
+  }
+
+  .signup-form textarea {
+    width: 100%;
+  }
+
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .width-100 {
+    width: 100% !important;
+  }
+
+  .sign-head {
+    margin-left: 0 !important;
+  }
+
+  .register-btn {
+    width: 100% !important;
+  }
+
+  .login-form {
+    padding-top: 1rem !important;
+    width: auto;
+    float: none;
+  }
+
+  .event-main-table {
+    overflow-x: auto;
+  }
+
+  .table-header {
+    width: 64rem;
+  }
+
+  .hire-header {
+    width: 45rem;
+  }
+
+  .create-event-btn {
+    width: 100%;
+  }
+
+  .cancel-eventBtn {
+    margin: 20px 0 0 0 !important;
+  }
+
+  .ticketsBtn {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 1320px) and (min-width: 992px) {
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .login-form {
+    margin: 0;
+  }
+
+  .saly-img {
+    right: -5rem;
+    width: 22rem;
+    bottom: -24rem;
+  }
+
+  .left_div {
+    width: 100%;
+  }
+
+  .login-form {
+    padding-top: 4rem;
+    float: none;
+  }
+
+  .sign-head {
+    margin: 0;
+  }
+
+  .signup-form {
+    text-align: left;
+  }
+
+  .mx-width {
+    flex-direction: row !important;
+  }
+
+  .media-q-r {
+    float: none !important;
+  }
+}
+
+.pop-up-img {
+  width: 24rem;
+  height: 12rem;
+}
+
+.mac-book-pro-16-1 {
+  background: #ffffff;
+  width: 100%;
+  background-image: url("../../public/assets/images/popup-ticket-sales-bg 1.jpg") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.menuBarToogle {
+  display: block !important;
+  position: absolute;
+  z-index: 1;
+  width: 80%;
+  height: 100vh;
+  overflow: hidden;
+  left: 0 !important;
+  transition: 0.25s;
+}
+
+.closeMenuBar {
+  margin: 20px 10px 0 0;
+  font-size: 25px;
+  position: absolute;
+  right: 0;
+}
+
+.popup-ticket-sales-bg-1 {
+  width: 1977px;
+  height: 1112px;
+
+  filter: blur(12px);
+}
+
+.public-event {
+  color: #000000;
+}
+
+.public-event-span {
+  color: #000000;
+  font:
+    700 45px "ITC Avant Garde Gothic",
+    sans-serif;
+}
+
+.public-event-span2 {
+  color: #000000;
+  font:
+    700 40px "ITC Avant Garde Gothic",
+    sans-serif;
+}
+
+.btn-load-more {
+  inset: 0;
+}
+
+.buy-now {
+  background: #13b497;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 174px;
+  height: 53px; */
+  padding: 0.8rem 3rem;
+
+  box-shadow: 0px 12px 23px 0px rgba(62, 73, 84, 0.04);
+}
+
+.eventMainDiv {
+  display: flex;
+  gap: 2.5rem;
+  justify-content: center;
+  width: 100%;
+  margin: -4.5rem 0 0rem 0;
+  padding-bottom: 4rem;
+}
+
+.poppinsFont {
+  font-family: "Poppins", sans-serif !important;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200&family=Lato&family=Poppins:wght@300&display=swap");
+
+.buy-now {
+  /* font-style: "Poppins", "sans-serif"; */
+}
+
+.closeMenuBar {
+  display: none;
+}
+
+.eventImage {
+  height: 70vh;
+  width: 40vw;
+  object-fit: cover;
+  /* margin-left: 2rem; */
+}
+
+.orderTable div {
+  width: 25% !important;
+  word-wrap: break-word;
+}
+
+.background2 {
+  background: #13b497;
+  border-radius: 14px;
+  width: 174px;
+  height: 53px;
+
+  box-shadow: 0px 12px 23px 0px rgba(62, 73, 84, 0.04);
+}
+
+.buy-now2 {
+  color: #ffffff;
+
+  font:
+    600 16px "Poppins",
+    sans-serif;
+
+  width: 77px;
+}
+
+.background3 {
+  background: #13b497;
+  border-radius: 14px;
+  width: 174px;
+  height: 53px;
+
+  box-shadow: 0px 12px 23px 0px rgba(62, 73, 84, 0.04);
+}
+
+.menuImgDash {
+  display: none;
+}
+
+.buy-now3 {
+  color: #ffffff;
+
+  font:
+    600 16px "Poppins",
+    sans-serif;
+
+  width: 77px;
+}
+
+.my-project-2-1 {
+  width: fit-content;
+  height: fit-content;
+}
+
+.ticketHead {
+  font-size: 2.5rem;
+  line-height: 1.3;
+}
+
+.friday-may-16th {
+  color: #000000;
+  font:
+    700 2rem "ITC Avant Garde Gothic Pro",
+    sans-serif;
+}
+
+.buyNowInput {
+  margin-top: 0 !important;
+  margin-bottom: 14px;
+  font-size: 12px !important;
+  padding: 0.75rem 1rem !important;
+}
+
+.eventTime {
+  color: rgba(103, 103, 103, 1);
+  font:
+    500 2rem "ITC Avant Garde Gothic Pro",
+    sans-serif;
+}
+
+.hosted-by {
+  color: #000000;
+  font:
+    700 30px "ITC Avant Garde Gothic",
+    sans-serif;
+}
+
+.jane-doe {
+  color: #ea4949;
+  font:
+    500 30px "ITC Avant Garde Gothic Pro",
+    sans-serif;
+}
+
+.hostedByImg {
+  border-radius: 90px;
+  width: 42px;
+  height: 38px;
+  object-fit: cover;
+}
+
+.my-project-1-1 {
+  width: 543px;
+  height: 702px;
+}
+
+.ticket-types-prices {
+  color: #000000;
+
+  font:
+    700 40px "ITC Avant Garde Gothic",
+    sans-serif;
+}
+
+.border-bot {
+  background: #323940;
+  border-radius: 1px;
+  height: 1px;
+  width: 91.6666%;
+}
+
+.icon {
+  width: 100px;
+  height: 52px;
+}
+
+.ticketPriceDiv {
+  background: #13b497;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: #fff;
+  font-size: 20px;
+}
+
+._20-tickets-remaining {
+  color: #000000;
+}
+
+.allows-you-general-access-into-the-event {
+  color: #000000;
+}
+
+.rectangle-45 {
+  border-radius: 0px;
+
+  overflow: visible;
+}
+
+._30-tickets-remaining {
+  color: #000000;
+}
+
+.border-bot2 {
+  background: #323940;
+  border-radius: 1px;
+  width: 594px;
+  height: 1px;
+}
+
+.placeholder2 {
+  background: #13b497;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+}
+
+._40 {
+  color: #ffffff;
+
+  /* font: 700 16px "Poppins", sans-serif; */
+}
+
+.vip {
+  color: #000000;
+
+  /* font: 500 16px "Poppins", sans-serif; */
+}
+
+.allows-you-into-all-ga-areas-as-well-as-a-vip-area {
+  color: #000000;
+
+  /* font: 400 14px "Poppins", sans-serif; */
+}
+
+._0-tickets-remaining {
+  color: #000000;
+
+  /* font: 400 14px "Poppins", sans-serif; */
+}
+
+.icon2 {
+  width: 21px;
+  height: 24px;
+}
+
+._0 {
+  color: #ffffff;
+
+  /* font: 700 16px "Poppins", sans-serif; */
+}
+
+.free {
+  color: #010101;
+
+  /* font: 500 16px "Poppins", sans-serif; */
+}
+
+.limited-amount-of-free-tickets {
+  color: #000000;
+
+  /* font: 400 14px "Poppins", sans-serif; */
+}
+
+.rave-music {
+  color: rgba(0, 0, 0, 0.8);
+
+  /* font: 500 30px "ITC Avant Garde Gothic Pro", sans-serif; */
+}
+
+.soldout-text-1 {
+  width: 70px;
+  height: 33px;
+
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.25);
+  transform-origin: 0 0;
+  transform: rotate(-21.065deg) scale(1, 1);
+}
+
+.my-project-2-2 {
+  width: 482px;
+  height: 226px;
+}
+
+.rectangle-46 {
+  background: #5b63a3;
+  border-radius: 50px;
+  width: 70%;
+  justify-content: space-around;
+  margin-right: 5rem;
+  display: flex;
+  padding: 2.5rem;
+}
+
+.card-body {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card-body-image {
+  width: 50%;
+}
+
+.card-body-image-data {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+}
+
+.rectangle-47 {
+  background: #5b63a3;
+  border-radius: 50px;
+  width: 30%;
+  height: 346px;
+}
+
+.eventImageTicket {
+  width: 50%;
+}
+
+.eventImageTicket img {
+  height: 100%;
+  width: 75%;
+  float: right;
+  object-fit: cover;
+}
+
+.qr-code-bc-94057-f-452-f-4806-af-70-fd-34540-f-72-ad-1 {
+  width: 187px;
+  height: 190px;
+}
+
+.eventDetailDollarImg {
+  right: 0;
+  bottom: 0;
+  width: 35%;
+}
+
+.my-project-1-2 {
+  border-radius: 50px;
+  width: 894px;
+  height: 346px;
+}
+
+.my-project-1-22 {
+  width: 199px;
+  height: 245px;
+}
+
+._1200-px-add-to-apple-wallet-badge-1 {
+  width: 104px;
+  height: 31px;
+}
+
+.text_Data {
+  font-size: 3rem;
+}
+
+.your-order-has-been-confirmed {
+  color: #000000;
+  font-family: sans-serif;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.tick-image {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.mainDivTicketConfirm {
+  margin: -3rem 0 0rem 0;
+  padding-bottom: 4rem;
+}
+
+.you-will-need-to-show-your-ticket-at-the-door-we-will-also-email-you-your-ticket-confirmation {
+  color: #000000;
+  font-family: sans-serif;
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.text_Decoration {
+  color: #fff;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.eventTittleTicket {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.avalon-events-presents {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: x-large;
+  font-weight: 500;
+
+  /* font: 600 32px "Inter", sans-serif; */
+}
+
+.event-Details {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 40%;
+}
+
+.RightSideEvent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  width: 40%;
+  margin-left: 2rem;
+}
+
+.forMobile {
+  display: none;
+}
+
+.ticketsRowDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 91.666667%;
+  padding: 0.75rem 0;
+  align-items: center;
+}
+
+.event_img_details {
+  padding-left: 1.5rem;
+}
+
+.chatRightDivBlock {
+  display: block !important;
+}
+
+.chatRightDivNone {
+  display: none !important;
+}
+
+.chatLeftDivNone {
+  display: none;
+}
+
+.chatLeftDivBlock {
+  display: block !important;
+}
+
+.dateTimefix {
+  justify-content: space-between;
+}
+
+.start-date {
+  width: 49%;
+  background: transparent;
+  border: 1px solid gray;
+  text-transform: uppercase;
+}
+
+.end-date {
+  width: 49%;
+  background: transparent;
+  border: 1px solid gray;
+  text-transform: uppercase;
+}
+
+.ledger-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 767px) {
+  .eventMainDiv {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .border-bot {
+    width: 100%;
+  }
+
+  .buy-now {
+    padding: 0.5rem 1rem;
+  }
+
+  .ticketsRowDiv {
+    width: 100%;
+  }
+
+  .event-Details {
+    width: 100%;
+  }
+
+  .pop-up-img {
+    width: 12rem;
+    height: 6rem;
+  }
+
+  .ticketHead {
+    font-size: 1.5rem;
+  }
+
+  .RightSideEvent {
+    display: none;
+  }
+
+  .forMobile {
+    display: block !important;
+    width: 100%;
+  }
+
+  .eventImage {
+    min-height: unset;
+    min-width: unset;
+    width: 100%;
+    height: 500px;
+    margin: 1rem 0 0 0;
+  }
+
+  .hosted-by {
+    font-size: 1.5rem;
+  }
+
+  .jane-doe {
+    font-size: 1.5rem;
+  }
+
+  .rave-music {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .my-project-2-2 {
+    width: 200px;
+    height: 110px;
+  }
+
+  .eventImage {
+    margin-left: 0;
+    min-width: unset;
+  }
+
+  .buy-now {
+    padding: 10px 14px;
+  }
+
+  .drop-photos {
+    height: 226px !important;
+  }
+
+  .font-Size {
+    font-size: 14px !important;
+  }
+
+  .theWeek {
+    font-size: 14px;
+  }
+
+  .rectangle-47 {
+    background: #5b63a3;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 346px;
+  }
+
+  .qr-code-bc-94057-f-452-f-4806-af-70-fd-34540-f-72-ad-1 {
+    width: 94px;
+    height: 95px;
+  }
+
+  .admit-one {
+    color: #ffffff;
+
+    font:
+      200 12px "Inter",
+      sans-serif;
+  }
+
+  .ticket-code {
+    color: #ffffff;
+
+    font:
+      200 12px "Inter",
+      sans-serif;
+  }
+
+  .a-2-b-3-dd-45 {
+    color: #ffffff;
+
+    font:
+      200 12px "Inter",
+      sans-serif;
+  }
+
+  .friday-may-16-17-9-pm-2-am {
+    color: #ffffff;
+
+    font:
+      200 12px "Inter",
+      sans-serif;
+  }
+
+  .music-art-show {
+    color: #ffffff;
+
+    font:
+      300 18px "Inter",
+      sans-serif;
+  }
+
+  .rave-music1 {
+    color: #ffffff;
+
+    font:
+      200 12px "Inter",
+      sans-serif;
+  }
+
+  .my-project-1-2 {
+    border-radius: 50px;
+    width: 350px;
+    height: 120px;
+  }
+
+  ._1735-vine-st-hollywood-ca {
+    color: #ffffff;
+
+    font:
+      200 12px "Inter",
+      sans-serif;
+  }
+
+  .my-project-1-22 {
+    width: 100px;
+    height: 80px;
+  }
+
+  .ticket-type-vip {
+    color: #ffffff;
+
+    font:
+      300 12px "Inter",
+      sans-serif;
+  }
+
+  ._1200-px-add-to-apple-wallet-badge-1 {
+    width: 70px;
+    height: 25px;
+  }
+
+  .thanks {
+    color: #000000;
+
+    font:
+      200 18px "Inter",
+      sans-serif;
+  }
+
+  .your-order-has-been-confirmed {
+    color: #000000;
+
+    font:
+      300 20px "Inter",
+      sans-serif;
+  }
+
+  .eo-circle-green-white-checkmark-1 {
+    width: 12px;
+    height: 14px;
+  }
+
+  .you-will-need-to-show-your-ticket-at-the-door-we-will-also-email-you-your-ticket-confirmation {
+    color: #000000;
+
+    font:
+      200 20px "Inter",
+      sans-serif;
+  }
+
+  .avalon-events-presents {
+    color: #ffffff;
+
+    font:
+      200 16px "Inter",
+      sans-serif;
+  }
+
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .media-q-r {
+    float: none !important;
+  }
+
+  .left_div {
+    width: 100%;
+  }
+
+  .right_div {
+    width: 100%;
+  }
+
+  .login-form {
+    margin: 0;
+    float: none;
+  }
+
+  .saly-img {
+    right: -108px;
+    width: 24rem;
+    bottom: -24rem;
+  }
+
+  .signup-form {
+    text-align: left;
+  }
+
+  .sign-head {
+    margin: 0;
+  }
+
+  .signup-form-parent {
+    width: 80%;
+  }
+
+  .wrong-msg-div {
+    float: left;
+  }
+
+  .ticketContainerBox {
+    background: #ffffff;
+    width: 100%;
+    height: 100vh;
+
+    overflow: scroll;
+    background-image: url("/assets/images/popup-ticket-sales-bg 1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 992px) {
+  .layoutLeftDiv {
+    /* display: none; */
+    left: -350px;
+    position: absolute;
+  }
+
+  .eventDetailsPopUp{
+    bottom: 3rem;
+    right: -1rem;
+  }
+
+  .chatsRightSide {
+    padding: 0 !important;
+  }
+
+  .sendOfferDiv {
+    padding: 0 !important;
+  }
+
+  .sendOfferText {
+    font-size: 12px;
+  }
+
+  .setting-input {
+    width: 100%;
+  }
+
+  .setting-input input {
+    width: 70%;
+  }
+
+  .setting-pass {
+    width: 70% !important;
+  }
+
+  .outerDivStyles {
+    min-height: unset;
+    height: auto;
+  }
+
+  .layoutRightDiv {
+    width: 100%;
+  }
+
+  .top-header {
+    padding: 1rem;
+  }
+
+  .header-icons {
+    gap: 4px;
+  }
+
+  .user-name {
+    display: none;
+  }
+
+  .right-layout {
+    padding: 1rem;
+  }
+
+  .name {
+    margin-left: 22px;
+  }
+
+  .name p {
+    padding-bottom: 0px !important;
+  }
+
+  .name small {
+    font-size: 14px !important;
+  }
+
+  .event-header {
+    width: 100%;
+    flex-direction:column;
+  }
+
+  .create-e-btn {
+    width: 100% !important;
+    height: 60px !important;
+    margin-top: 16px !important;
+  }
+
+  .create-e-btn-parent {
+    width: 100%;
+  }
+
+  .menuImgDash {
+    display: block;
+  }
+
+  .closeMenuBar {
+    display: block;
+  }
+
+  .ticketForm {
+    margin-left: 0 !important;
+  }
+
+  .event_img_details {
+    padding-left: 0;
+  }
+
+  .event-details-cards {
+    margin: 0;
+    margin-top: 14px !important;
+    margin-bottom: 0 !important;
+  }
+
+  .event-details-top-cards {
+    padding: 2rem;
+  }
+
+  .event-img-col {
+    padding: 0 0 0 0 !important;
+  }
+
+  .available {
+    margin-top: 14px;
+  }
+
+  .event-details-btns {
+    margin-top: 14px !important;
+    width: 100%;
+  }
+
+  .danuaImage {
+    margin-top: 14px;
+  }
+
+  .galleries {
+    margin-top: 14px !important;
+  }
+
+  .forLine {
+    display: none;
+  }
+
+  .eventDetailDollarImg {
+    width: 28%;
+  }
+
+  .evnetDetailImd_Carousel {
+    height: 250px !important;
+    margin-top: 14px;
+  }
+
+  .RightSideEvent {
+    margin-left: 0;
+  }
+
+  .eventTicketDiv {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .rectangle-46 {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .card-body {
+    width: 100%;
+  }
+
+  .eventImageTicket {
+    width: 100%;
+  }
+
+  .eventImageTicket img {
+    width: 100%;
+  }
+
+  .rectangle-47 {
+    width: 100%;
+  }
+
+  .mainDivTicketConfirm {
+    margin-top: -1rem;
+  }
+
+  .circle-image img {
+    margin-left: 0 !important;
+  }
+
+  .circle-image {
+    margin-right: 5px;
+  }
+
+  .chatRightParent {
+    display: none;
+  }
+  .chatRight {
+    width: 100% !important;
+    height: calc(100vh - 100px);
+    display: none;
+    overflow: hidden;
+  }
+  .chatLeft {
+    width: 100% !important;
+  }
+
+  .ledger-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .dateTimefix {
+    justify-content: center;
+    margin-bottom:10px;
+    width:100%;
+    gap:5px;
+    padding-inline:10px;
+  }
+
+  input[type="date"]{
+    margin-right:5px;
+    font-size:9px;
+  }
+
+  .start-date {
+    width: 40%;
+  }
+
+  .end-date {
+    width: 40%;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Apply spinner styles */
+.spinner-border {
+  border: 6px solid white;
+  border-top: 6px solid #13b497;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+}
+
+/* Variables */
+:root {
+  --color-success: #00c851;
+  --color-error: #ff4444;
+  --stroke-width: 5px;
+  --size: 150px;
+  --checkmark-color: white;
+}
+
+/* Styles for .wrapper class */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Styles for .checkmark_circle_success and .checkmark_circle_error */
+.checkmark_circle_success,
+.checkmark_circle_error {
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  stroke-width: var(--stroke-width);
+  stroke-miterlimit: 10;
+  animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.checkmark_circle_success {
+  stroke: var(--color-success);
+}
+
+.checkmark_circle_error {
+  stroke: var(--color-error);
+}
+
+/* Styles for .checkmark */
+.checkmark {
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  display: block;
+  stroke-width: var(--stroke-width);
+  stroke: var(--checkmark-color);
+  stroke-miterlimit: 10;
+  margin: 10% auto;
+}
+
+.checkmark.success {
+  box-shadow: inset 0px 0px 0px var(--color-success);
+  animation:
+    fillsuccess 0.4s ease-in-out 0.4s forwards,
+    scale 0.3s ease-in-out 0.9s both;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.checkmark.error {
+  box-shadow: inset 0px 0px 0px var(--color-error);
+  animation:
+    fillerror 0.4s ease-in-out 0.4s forwards,
+    scale 0.3s ease-in-out 0.9s both;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+/* Styles for .checkmark_check */
+.checkmark_check {
+  transform-origin: 50% 50%;
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.9s forwards;
+}
+
+/* Styles for .progress */
+.progress {
+  transform: rotate(-90deg);
+  stroke: black;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.progress--thin {
+  left: auto;
+  right: 5%;
+}
+
+/* Keyframes */
+@keyframes dash {
+  50% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: -130;
+  }
+}
+
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes scale {
+  0%,
+  100% {
+    transform: none;
+  }
+  50% {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+}
+
+@keyframes fillsuccess {
+  100% {
+    box-shadow: inset 0px 0px 0px calc(var(--size) / 2) var(--color-success);
+  }
+}
+
+@keyframes fillerror {
+  100% {
+    box-shadow: inset 0px 0px 0px calc(var(--size) / 2) var(--color-error);
+  }
+}
+
+.details-model-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.details-model {
+  background-color: #2d3640;
+  color: white;
+  padding: 32px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  max-width: 500px;
+}
